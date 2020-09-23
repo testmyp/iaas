@@ -1,0 +1,9 @@
+---
+
+-
+  name: 'ping testing'
+  hosts: all
+  tasks:
+    -
+      name: 'pinging'
+      command: ping www.google.com
