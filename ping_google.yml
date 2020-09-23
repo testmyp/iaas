@@ -2,8 +2,8 @@
 
 -
   name: 'ping testing'
-  hosts: all
+  hosts: localhost
   tasks:
     -
       name: 'pinging'
-      command: 'ping www.google.com'
+      command: date
