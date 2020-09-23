@@ -6,4 +6,4 @@
   tasks:
     -
       name: 'pinging'
-      command: ping www.google.com
+      command: 'ping www.google.com'
